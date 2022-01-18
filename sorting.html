@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+	// const daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+	// const taskList = [
+	// 	{id:1, name:'Task1', day:'Friday'},
+	// 	{id:2, name:'Task2', day:'Thursday'},
+	// 	{id:3, name:'Task3', day:'Saturday'},
+	// 	{id:4, name:'Task4', day:'Monday'},
+	// 	{id:5, name:'Task5', day:'Sunday'},
+	// 	{id:6, name:'Task6', day:'Tuesday'},
+	// 	{id:7, name:'Task7', day:'Wednesday'},
+	// ];
+
+
+	// const daysOfWeekSorter = (x, y) => {
+    //   return daysOfWeek.indexOf(x.day) - daysOfWeek.indexOf(y.day);
+    // };
+
+	// const sortedByDays = taskList.sort(daysOfWeekSorter);
+
+	// console.log(sortedByDays);
+	const month=['january','february','march','april','may','june','july','august','september','october','november','december'];
+	const taskList=[
+{id:1,month:'january'},
+{id:2,month:'february'},
+{id:3,month:'march'},
+{id:4,month:'april'},
+{id:5,month:'may'},
+{id:6,month:'june'},
+{id:7,month:'july'},
+{id:8,month:'august'},
+{id:9,month:'september'},
+{id:10,month:'october'},
+{id:11,month:'november'},
+{id:12,month:'december'},
+
+];
+const monthSorter=(x,y)=>{
+	return month.indexOf(x.month)-month.indexOf(y.month);
+
+};
+const sortedByMonths=taskList.sort(monthSorter);
+console.log(sortedByMonths);
+
+
+</script>
+</html>
+
